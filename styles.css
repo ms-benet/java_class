@@ -1,0 +1,35 @@
+.b {
+    border-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.main-container {
+    display: flex;
+    flex: 80%;
+    height: 600px;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: last baseline;
+    
+}
