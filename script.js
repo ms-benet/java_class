@@ -4,7 +4,7 @@ function loadContent(page) {
     ajax.open("GET", filePath, true);
     ajax.onload = function () {
         if(ajax.status == 200) {
-            const container = document.getElementById("main-content");
+            const container = document.getElementById("Main Content");
             if (container){
                 container.innerHTML = ajax.responseText;
             
