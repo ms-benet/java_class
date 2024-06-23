@@ -1,7 +1,10 @@
 .b {
     border-color: blueviolet;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .header-container {
