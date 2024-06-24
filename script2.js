@@ -9,3 +9,4 @@ function loadContent(page) {
     document.getElementById("main-content").innerHTML = 
     "<object type='text/html'data='Contact.html'></object>";
    }
+   

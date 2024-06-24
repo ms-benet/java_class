@@ -1,6 +1,6 @@
 console.log ("script-arithmetic.js");
 
-let param = [3, 9, 17. 32, 66];
+let param = [3, 9, 17, 32, 66];
 
 function loteria(param) {
  for (let index = 0; index < param.length; index++) {

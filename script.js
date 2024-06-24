@@ -1,3 +1,5 @@
+console.log ("script.js");
+
 function loadContent(page) {
     var filePath = `${page}.html`;
     var ajax = new XMLHttpRequest();
