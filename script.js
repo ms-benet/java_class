@@ -2,11 +2,12 @@ console.log ("script.js");
 
 function loadContent(page) {
     var filePath = `${page}.html`;
+    console.log (filePath)
     var ajax = new XMLHttpRequest();
     ajax.open("GET", filePath, true);
     ajax.onload = function () {
         if(ajax.status == 200) {
-            const container = document.getElementById("Main Content");
+            const container = document.getElementById("Main_Content");
             if (container){
                 container.innerHTML = ajax.responseText;
             
